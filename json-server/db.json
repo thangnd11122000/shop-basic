@@ -1,0 +1,292 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Điện thoại"
+    },
+    {
+      "id": 2,
+      "name": "Laptop"
+    },
+    {
+      "id": 3,
+      "name": "Đồng hồ"
+    },
+    {
+      "id": 4,
+      "name": "Phụ kiện"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/224859/samsung-galaxy-s20-fan-edition-090320-040338-600x600.jpg",
+      "name": "Điện thoại Samsung Galaxy S20 FE ",
+      "price": 14999999,
+      "detail": "Samsung đã giới thiệu đến người dùng thành viên mới của dòng điện thoại thông minh S20 Series đó chính là Samsung Galaxy S20 FE. Đây là mẫu flagship cao cấp quy tụ nhiều tính năng mà Samfan yêu thích, hứa hẹn sẽ mang lại trải nghiệm cao cấp của dòng Galaxy S với mức giá dễ tiếp cận hơn.",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/229947/vivo-y12s-xanh-600x600.jpg",
+      "name": "Điện thoại Vivo Y12s (4GB/128GB)",
+      "price": 3000000,
+      "detail": "Vivo Y12s chiếc điện thoại với nhiều ưu điểm về ngoại hình bắt mắt, cấu hình đủ dùng, viên pin khủng đi kèm mức giá tương đối dễ tiếp cận hứa hẹn sẽ mang tới trải nghiệm giải trí tuyệt vời trên thiết bị di động.",
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/248284/samsung-galaxy-z-fold-3-green-1-600x600.jpg",
+      "name": "Điện thoại Samsung Galaxy Z Fold2 5G",
+      "price": 50000000,
+      "detail": "Galaxy Z Fold 2 là tên gọi chính thức của điện thoại màn hình gập cao cấp của Samsung. Với nhiều nâng cấp tiên phong về thiết kế, hiệu năng và camera, hứa hẹn đây sẽ là một siêu phẩm thành công tiếp theo đến từ “ông trùm” sản xuất điện thoại lớn nhất thế giới. ",
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-vang-new-600x600-600x600.jpg",
+      "name": "Điện thoại iPhone 12 Pro Max 128GB",
+      "price": 20000000,
+      "detail": "iPhone 12 Pro Max 128 GB một siêu phẩm smartphone đến từ Apple. Máy có một hiệu năng hoàn toàn mạnh mẽ đáp ứng tốt nhiều nhu cầu đến từ người dùng và mang trong mình một thiết kế đầy vuông vức, sang trọng.",
+      "category_id": 1
+    },
+    {
+      "name": "Laptop Lenovo IdeaPad Slim 5 i5",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/243952/apple-macbook-air-m1-2020-z12a00050-600x600.jpg",
+      "price": 20000000,
+      "detail": "Sở hữu thiết kế mỏng nhẹ và thanh lịch, Lenovo IdeaPad Slim 5 15ITL05 i5 1135G7 (82FG001PVN) không chỉ là một mẫu laptop thời trang, mà còn mang trên mình sức mạnh vô cùng mạnh mẽ đến từ bộ vi xử lý Intel Core i5 thế hệ thứ 11 giúp bạn hoàn thành xuất sắc mọi công việc.",
+      "category_id": 2,
+      "id": 5
+    },
+    {
+      "name": "Laptop Acer Aspire 7 Gaming",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/239538/acer-aspire-7-a715-41g-r150-r7-nhq8ssv004-600x600.jpg",
+      "price": 20490000,
+      "detail": "Acer Aspire 7 A715 41G R150 R7 (NH.Q8SSV.004) được thiết kế gọn gàng với cấu hình mạnh mẽ nhờ CPU AMD Ryzen 7 và card đồ hoạ NVIDIA GeForce GTX 1650Ti giúp tối ưu trải nghiệm chơi game, đáp ứng đa dạng nhu cầu sử dụng.",
+      "category_id": 2,
+      "id": 10
+    },
+    {
+      "name": "Laptop Dell Gaming G3 15 i7",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/244385/dell-g3-15-i7-p89f002bwh-16-600x600.jpg",
+      "price": 31500000,
+      "detail": "Laptop Dell G3 15 i7 (P89F002BWH) thuộc dòng laptop gaming với cấu hình mạnh mẽ, thiết kế trang nhã và rất sang trọng, dễ lựa chọn cho cả người đi đọc, đi làm, là 1 phiên bản tốt để lựa chọn cho cả nhu cầu làm việc, học tập và chơi game giải trí.",
+      "category_id": 2,
+      "id": 11
+    },
+    {
+      "name": "Laptop Asus TUF Gaming FX506LH",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/236022/asus-uf-gaming-fx506lh-i5-hn002t-15-600x600.jpg",
+      "price": 21600000,
+      "detail": "Với sự mạnh mẽ, bền bỉ từ thiết kế vẻ ngoài lẫn bên trong cấu hình, Asus TUF Gaming FX506LH (HN002T) sẽ là một trợ thủ đắc lực của bạn trong trò chơi yêu thích và cả những tác vụ nặng khác.\nĐa nhiệm mượt mà với chip Intel Core i5 thế hệ 10 tiêu chuẩn gaming\nAsus TUF Gaming được trang bị chip Intel Comet Lake 10300H cho hiệu năng ổn định, chiến game cực chất với 4 nhân 8 luồng cùng xung nhịp ép lên đến 4.5 GHz nhờ công nghệ Turbo Boost.",
+      "category_id": 2,
+      "id": 12
+    },
+    {
+      "name": "Apple Watch S6 44mm",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/234912/s6-44mm-vien-nhom-day-cao-su-hong-thumb-600x600.jpg",
+      "price": 11000000,
+      "detail": "Thiết kế tinh tế, màu sắc sang trọng\nApple Watch series 6 44 mm viền nhôm dây cao su là một siêu phẩm đến từ nhà Táo, nhờ có thiết kế tinh xảo, độ hoàn thiện cao, màu đen sang trọng phù hợp với mọi lứa tuổi và giới tính, chiếc đồng hồ luôn thu hút rất nhiều người khi xuất hiện.",
+      "category_id": 3,
+      "id": 13
+    },
+    {
+      "name": "Samsung Galaxy Watch 4 45mm ",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/248753/samsung-galaxy-watch-4-44mm-xanh-thumb-600x600.jpg",
+      "price": 6000000,
+      "detail": "Samsung Galaxy Watch 4 sở hữu thiết kế quen thuộc với khung viền nhôm bền bỉ, dây đeo silicone. Phiên bản 44mm này dành cho các chàng trai có cổ tay to nhưng vẫn giữ được nét thanh lịch vốn có nhờ kiểu thiết kế mặt đồng hồ tròn cổ điển.\n\nỞ lần ra mắt này, Samsung gây ấn tượng lớn với cộng đồng yêu thích công nghệ ở thế giới và Việt Nam khi trình làng chiếc đồng hồ thông minh đầu tiên sử dụng hệ điều hành Wear OS mới - One UI Watch, được tùy biến riêng cho thiết bị Samsung trên nền tảng cộng tác trực tiếp cùng Google.",
+      "category_id": 3,
+      "id": 14
+    },
+    {
+      "name": "Đồng hồ thông minh BeU B1 Đen",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/231680/beu-b1-den-thumb-1-1-600x600.jpg",
+      "price": 720000,
+      "detail": "Đồng hồ thông minh BeU B1 Đen mang thiết kế trẻ trung phù hợp với những bạn trẻ theo đuổi phong cách đơn giản. Đồng hồ được trang bị màn hình 1.3 inch với độ phân giải  240 x 240 pixels giúp việc quan sát trở nên dễ dàng hơn. Bên cạnh đó, dây đeo được làm bằng chất liệu silicone mềm mại, tạo cảm giác thoải mái cho người dùng. Dây đeo đồng hồ có thể tháo rời để việc vệ sinh đồng hồ nhanh chóng và tiện lợi.",
+      "category_id": 3,
+      "id": 15
+    },
+    {
+      "name": "Pin sạc dự phòng 7500 mAh AVA+ LJ JP199",
+      "image": "https://cdn.tgdd.vn/Products/Images/57/240696/ava-lj-jp199-ava-600x600.jpg",
+      "price": 199000,
+      "detail": "Thiết kế thời trang, nhỏ nhắn, dễ mang theo.\nSử dụng lõi pin Li-Ion an toàn, bền tốt.\nNguồn ra có 2 cổng USB 5V – 2A.\nDung lượng 7500 mAh cho hiệu suất sạc 64%.\nSạc được cho mọi điện thoại và máy tính bảng tương thích.",
+      "category_id": 4,
+      "id": 16
+    },
+    {
+      "name": "Cáp Micro 1m Xmobile LTM-02 Xanh rêu ",
+      "image": "https://cdn.tgdd.vn/Products/Images/58/228492/cap-micro-1m-xmobile-ltm-02-xanh-reu-ava-1-600x600.jpg",
+      "price": 100000,
+      "detail": "Thiết kế đẹp mắt, vỏ dây chất liệu nylon bền chắc.\nChiều dài dây 1 m, dễ quấn gọn, không sợ nứt gãy, tiện mang theo.\nTrang bị 1 đầu cáp USB và 1 đầu Micro USB, dùng tốt với nhiều thiết bị.\nSạc pin với tốc độ sạc nhanh, nguồn điện đầu ra là 2.1A tương đương 10.5 W, tiết kiệm thời gian.\nKhả năng truyền dữ liệu tốt giữa các thiết bị sử dụng 2 đầu cáp tương thích.",
+      "category_id": 4,
+      "id": 17
+    },
+    {
+      "name": "Điện thoại Samsung Galaxy Z Flip3",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/248283/samsung-galaxy-z-flip-3-violet-1-600x600.jpg",
+      "price": 24900000,
+      "detail": "Nối tiếp thành công của Galaxy Z Flip 5G, trong sự kiện Galaxy Unpacked vừa qua Samsung tiếp tục giới thiệu đến thế giới về Galaxy Z Flip3 5G 256GB. Sản phẩm có nhiều cải tiến từ độ bền cho đến hiệu năng và thậm chí nó còn vượt xa hơn mong đợi của mọi người.",
+      "category_id": 1,
+      "id": 18
+    },
+    {
+      "name": "Điện thoại Samsung Galaxy S21",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/226316/samsung-galaxy-s21-ultra-bac-600x600-1-600x600.jpg",
+      "price": 25000000,
+      "detail": "Sự đẳng cấp được Samsung gửi gắm thông qua chiếc smartphone Galaxy S21 Ultra 5G với hàng loạt sự nâng cấp và cải tiến không chỉ ngoại hình bên ngoài mà còn sức mạnh bên trong, hứa hẹn đáp ứng trọn vẹn nhu cầu ngày càng cao của người dùng.",
+      "category_id": 1,
+      "id": 19
+    },
+    {
+      "name": "Vòng đeo tay thông minh Mi Band 5",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/225949/mi-band-5-thumb-1-1-600x600.jpg",
+      "price": 700000,
+      "detail": "Vòng đeo tay thông minh Mi Band 5 có màn hình 1.1 inch cùng độ phân giải là 126 x 294 pixels, lớn hơn so với phiên bản 0.95 inch của Mi Band 4. Mật độ điểm ảnh trên Mi Band 5 được nâng cấp lên đến 300ppi, vì thế người dùng có thể quan sát các thông báo rõ ràng trên màn hình. Dây đeo làm từ silicone với thiết kế ôm trọn cổ tay, mang lại cảm giác vô cùng mềm mại và không bị phai màu khi sử dụng sau một thời gian dài.",
+      "category_id": 3,
+      "id": 20
+    },
+    {
+      "name": "Samsung Galaxy Watch Active 2 44mm",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/212620/samsung-galaxy-watch-active-2-44-mm-sillicon-thumb-1-1-600x600.jpg",
+      "price": 2700000,
+      "detail": "Đồng hồ thông minh Samsung Galaxy Watch Active 2 cải tiến hơn với màn hình chống chói, hiển thị thông tin sắc nét. Các tiện ích khác cũng được nâng cấp nhằm mang lại sự tiện lợi nhất cho người dùng.",
+      "category_id": 3,
+      "id": 21
+    },
+    {
+      "name": "Đồng hồ thông minh Garmin Lily",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/235402/garmin-lily-day-silicone-thumb-1-1-600x600.jpg",
+      "price": 5000000,
+      "detail": "Đồng hồ Garmin Lily có khung viền polyme bền chắc, chịu va đập tốt cùng dây silicone êm nhẹ, thoải mái khi đeo. Sở hữu thiết kế nhỏ nhắn với đường kính mặt 35 mm cùng trọng lượng khoảng 24g, chiếc đồng hồ này rất thích hợp với các bạn nữ, đặc biệt khi đeo chiếc đồng hồ này khi tập luyện thể thao.\n\n",
+      "category_id": 3,
+      "id": 22
+    },
+    {
+      "name": "Oppo Watch 46mm dây silicone đen",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/225648/oppo-watch-46mm-day-silicone-thumb-1-1-600x600.jpg",
+      "price": 6000000,
+      "detail": "Đồng hồ thông minh Oppo Watch màu đen phiên bản 46mm sử dụng mặt đồng hồ vuông, bo cong nhẹ ở 4 cạnh, cùng với mặt kính bo cong 2D sang hai bên có chiều sâu tạo cảm giác như mặt kính cong 3D, màn hình AMOLED 1.91 inch độ phân giải 402 x 476 pixels, mật độ điểm ảnh 326 ppi và dải màu rộng chuẩn DCI-P3 cho chất lượng hiển thị sắc nét, sống động. Dây đeo silicone cho cảm giác mang được dễ chịu và thoải mái.",
+      "category_id": 3,
+      "id": 23
+    },
+    {
+      "name": "Tai nghe Bluetooth True Wireless",
+      "image": "https://cdn.tgdd.vn/Products/Images/54/230363/tai-nghe-bluetooth-true-wireless-mozard-ts13-avatar-ava-600x600.jpg",
+      "price": 350000,
+      "detail": "Thiết kế nhỏ gọn, sang trọng, đeo dễ chịu.\nÂm thanh mạnh mẽ, cuốn hút.\nKết nối Bluetooth 5.0 mượt mà đến 10 m.\nThoải mái nghe nhạc đến 5 giờ, sạc 2 giờ.",
+      "category_id": 4,
+      "id": 24
+    }
+  ],
+  "orders": [
+    {
+      "customer_name": "Thắng Nguyễn Doãn",
+      "customer_address": "Công viên phần mềm Quang, QTSC Building 1, Trung, P Q.12",
+      "customer_email": "thang111220@gmail.com",
+      "customer_phone": "0355234584",
+      "create_date": "2021-10-06",
+      "status": 2,
+      "id": 1
+    },
+    {
+      "customer_name": "Lê Quang Tuấn",
+      "customer_address": "TP HCM",
+      "customer_email": "tuan@gmail.com",
+      "customer_phone": "123456789",
+      "create_date": "2021-10-06",
+      "status": 3,
+      "id": 2
+    },
+    {
+      "customer_name": "Thanh Khương",
+      "customer_address": "Hà Nội",
+      "customer_email": "khuong@gmail.com",
+      "customer_phone": "02321323123",
+      "create_date": "2021-10-06",
+      "status": 3,
+      "id": 3
+    },
+    {
+      "customer_name": "Quang Hà",
+      "customer_address": "Hà Tĩnh",
+      "customer_email": "ha@gmail.com",
+      "customer_phone": "1230023213",
+      "create_date": "2021-10-06",
+      "status": 1,
+      "id": 4
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 1,
+      "unit_price": 14999999,
+      "id": 1
+    },
+    {
+      "order_id": 1,
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 3000000,
+      "id": 2
+    },
+    {
+      "order_id": 1,
+      "product_id": 3,
+      "quantity": 1,
+      "unit_price": 50000000,
+      "id": 3
+    },
+    {
+      "order_id": 2,
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 3000000,
+      "id": 4
+    },
+    {
+      "order_id": 2,
+      "product_id": 11,
+      "quantity": 4,
+      "unit_price": 31500000,
+      "id": 5
+    },
+    {
+      "order_id": 3,
+      "product_id": 14,
+      "quantity": 1,
+      "unit_price": 6000000,
+      "id": 6
+    },
+    {
+      "order_id": 3,
+      "product_id": 17,
+      "quantity": 1,
+      "unit_price": 100000,
+      "id": 7
+    },
+    {
+      "order_id": 3,
+      "product_id": 12,
+      "quantity": 1,
+      "unit_price": 21600000,
+      "id": 8
+    },
+    {
+      "order_id": 4,
+      "product_id": 1,
+      "quantity": 5,
+      "unit_price": 14999999,
+      "id": 9
+    },
+    {
+      "order_id": 4,
+      "product_id": 4,
+      "quantity": 2,
+      "unit_price": 20000000,
+      "id": 10
+    }
+  ]
+}

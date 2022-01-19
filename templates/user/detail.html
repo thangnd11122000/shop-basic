@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Shop</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="css/plugin.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- Preloder-->
+    <div class="preloder animated">
+      <div class="scoket">
+        <img src="img/preloader.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="body">
+      <div class="main-wrapper">
+        <!-- Navigation-->
+        <nav class="navbar navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#navbar"
+                aria-expanded="false"
+                aria-controls="navbar"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="./index.html"> Shop </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="./index.html">Sản phẩm</a></li>
+                <li class="dropdown">
+                  <a
+                    href="./cart.html"
+                    class="css-pointer dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    ><span>Giỏ hàng</span><span class="cart-number">0</span
+                    ><span class="caret"></span
+                  ></a>
+                  <div class="cart-content dropdown-menu"></div>
+                </li>
+                <li><a href="./checkout.html">Thanh Toán</a></li>
+              </ul>
+            </div>
+            <!--/.navbar-collapse -->
+          </div>
+        </nav>
+
+        <!-- Page Header -->
+        <section class="page_header">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h2 class="text-uppercase text-white-50">Chi tiết sản phẩm</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Shop Content -->
+        <section class="shop-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="single-shop-carousel">
+                  <div class="product-image">
+                    <img class="img-responsive" src="" alt="" />
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="col-md-6 shop-single-info">
+                <div class="shop-single-title">
+                  <h3 class="text-left product-name">Tên sản phẩm</h3>
+                </div>
+                <div class="shop-single-price">
+                  <div class="ssp pull-left product-price">100đ</div>
+                  <div class="rc-ratings pull-right">
+                    <span class="fa fa-star active"></span>
+                    <span class="fa fa-star active"></span>
+                    <span class="fa fa-star active"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                </div>
+                <p class="product-detail">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley.
+                </p>
+                <div class="quantity">
+                  <input
+                    class="cart-quantity"
+                    type="number"
+                    placeholder="1"
+                    style="width: 50px"
+                    min="1"
+                    value="1"
+                  />
+                  <a href="#" class="cart-add btn btn-default pull-right"
+                    >Thêm vào giỏ</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <!-- <div class="tab-style3">
+              <div class="align-center mb-40 mb-xs-30">
+                <ul class="nav nav-tabs tpl-minimal-tabs animate">
+                  <li class="active">
+                    <a aria-expanded="false" href="#mini-two" data-toggle="tab"
+                      >Đánh giá (20)</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              
+              <div
+                style="height: auto"
+                class="
+                  tab-content
+                  tpl-minimal-tabs-cont
+                  align-center
+                  section-text
+                "
+              >
+                <div class="tab-pane fade active in" id="mini-one">
+                  <div class="col-md-12">
+                    <h4 class="text-left">3 Reviews for Food</h4>
+                    <br />
+                    <ul class="comment-list">
+                      <l text-centeri>
+                        <a href="./index.html"
+                          ><img
+                            class="comment-avatar"
+                            src="img/xtra/1.jpg"
+                            alt=""
+                            height="50"
+                            width="50"
+                        /></a>
+                        <div class="comment-meta">
+                          <a href="./index.html">John Doe</a>
+                          <span>
+                            <em>Feb 17, 2015, at 11:34</em>
+                          </span>
+                        </div>
+                        <div class="rating2">
+                          <span>&#9733;</span><span>&#9733;</span
+                          ><span>&#9733;</span><span>&#9733;</span
+                          ><span>&#9733;</span>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Sed auctor sit amet urna nec tempor. Nullam
+                          pellentesque in orci in luctus. Sed convallis tempor
+                          tellus a faucibus. Suspendisse et quam eu velit
+                          commodo tempus.
+                        </p>
+                      </l>
+                      <l text-centeri>
+                        <a href="./index.html"
+                          ><img
+                            class="comment-avatar"
+                            src="img/xtra/2.jpg"
+                            alt=""
+                            height="50"
+                            width="50"
+                        /></a>
+                        <div class="comment-meta">
+                          <a href="./index.html">Rebecca</a>
+                          <span>
+                            <em>March 08, 2015, at 03:34</em>
+                          </span>
+                        </div>
+                        <div class="rating2">
+                          <span>&#9733;</span><span>&#9733;</span
+                          ><span>&#9733;</span><span>&#9733;</span
+                          ><span>&#9734;</span>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Sed auctor sit amet urna nec tempor. Nullam
+                          pellentesque in orci in luctus. Sed convallis tempor
+                          tellus a faucibus. Suspendisse et quam eu velit
+                          commodo tempus.
+                        </p>
+                      </l>
+                      <l text-centeri>
+                        <a href="./index.html"
+                          ><img
+                            class="comment-avatar"
+                            src="img/xtra/1.jpg"
+                            alt=""
+                            height="50"
+                            width="50"
+                        /></a>
+                        <div class="comment-meta">
+                          <a href="./index.html">Antony Doe</a>
+                          <span>
+                            <em>June 11, 2015, at 07:34</em>
+                          </span>
+                        </div>
+                        <div class="rating2">
+                          <span>&#9733;</span><span>&#9733;</span
+                          ><span>&#9733;</span><span>&#9733;</span
+                          ><span>&#9734;</span>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Sed auctor sit amet urna nec tempor. Nullam
+                          pellentesque in orci in luctus. Sed convallis tempor
+                          tellus a faucibus. Suspendisse et quam eu velit
+                          commodo tempus.
+                        </p>
+                      </l>
+                    </ul>
+                    <br />
+                    <h4 class="text-left">Add a review</h4>
+                    <br />
+                    <form id="form" class="review-form">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <input
+                            name="name"
+                            class="input-md form-control"
+                            placeholder="Name *"
+                            maxlength="100"
+                            required=""
+                            type="text"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <input
+                            name="email"
+                            class="input-md form-control"
+                            placeholder="Email *"
+                            maxlength="100"
+                            required=""
+                            type="email"
+                          />
+                        </div>
+                      </div>
+                      <span>Your Ratings</span>
+                      <div class="clearfix"></div>
+                      <div class="rating3">
+                        <span>&#9734;</span><span>&#9734;</span
+                        ><span>&#9734;</span><span>&#9734;</span
+                        ><span>&#9734;</span>
+                      </div>
+                      <div class="clearfix space20"></div>
+                      <textarea
+                        name="text"
+                        id="text"
+                        class="input-md form-control"
+                        rows="6"
+                        placeholder="Add review.."
+                        maxlength="400"
+                      ></textarea>
+                      <br />
+                      <button type="submit" class="btn btn-default">
+                        Submit Review
+                      </button>
+                    </form>
+                  </div>
+                  <div class="clearfix space30"></div>
+                </div>
+              </div>
+            </div> -->
+            <div class="clearfix"></div>
+            <div class="shop-products">
+              <h6>Sản phẩm khác</h6>
+              <div class="row show-related-products"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/jquery.flexslider-min.js"></script>
+    <script src="js/vendor/spectragram.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/velocity.min.js"></script>
+    <script src="js/vendor/velocity.ui.min.js"></script>
+    <script src="js/vendor/bootstrap-datepicker.min.js"></script>
+    <script src="js/vendor/bootstrap-clockpicker.min.js"></script>
+    <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/slick.min.js"></script>
+    <script src="js/vendor/wow.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/vendor/vegas/vegas.min.js"></script>
+    <script src="js/vendor/jquery.mb.YTPlayer.js"></script>
+    <script src="js/vendor/jquery.stellar.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vendor/mc/jquery.ketchup.all.min.js"></script>
+    <script src="js/vendor/mc/main.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js-assignment/public.js"></script>
+    <script src="js-assignment/detail.js"></script>
+  </body>
+</html>

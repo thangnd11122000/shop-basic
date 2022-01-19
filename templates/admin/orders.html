@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Admin - Shop</title>
+
+		<!-- ========== COMMON STYLES ========== -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" media="screen" />
+		<link
+			rel="stylesheet"
+			href="css/animate-css/animate.min.css"
+			media="screen"
+		/>
+		<link
+			rel="stylesheet"
+			href="css/lobipanel/lobipanel.min.css"
+			media="screen"
+		/>
+
+		<!-- ========== PAGE STYLES ========== -->
+		<link rel="stylesheet" href="css/prism/prism.css" media="screen" />
+		<!-- USED FOR DEMO HELP - YOU CAN REMOVE IT -->
+		<link rel="stylesheet" href="css/toastr/toastr.min.css" media="screen" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="js/DataTables/datatables.min.css"
+		/>
+
+		<!-- ========== THEME CSS ========== -->
+		<link rel="stylesheet" href="css/main.css" media="screen" />
+
+		<!-- ========== MODERNIZR ========== -->
+		<script src="js/modernizr/modernizr.min.js"></script>
+	</head>
+	<body class="top-navbar-fixed">
+		<div class="main-wrapper">
+			<!-- ========== WRAPPER FOR BOTH SIDEBARS & MAIN CONTENT ========== -->
+			<div class="content-wrapper" style="margin-top: 0;">
+				<div class="content-container">
+					<!-- ========== LEFT SIDEBAR ========== -->
+					<div class="left-sidebar fixed-sidebar bg-black-300 box-shadow">
+						<div class="sidebar-content mt-30">
+							<div class="sidebar-nav">
+								<ul class="side-nav color-gray">
+									<li class="nav-header">
+										<span class="">Cửa hàng</span>
+									</li>
+									<li>
+										<a href="./dashboard.html"
+											><i class="fa fa-home"></i> <span>Bảng điều khiển</span></a
+										>
+									</li>
+									<li>
+										<a href="./products.html"
+											><i class="fa fa-product-hunt"></i> <span>Sản phẩm</span></a
+										>
+									</li>
+									<li>
+										<a href="./categories.html"
+											><i class="fa fa-list"></i> <span>Danh mục</span></a
+										>
+									</li>
+									<li>
+										<a href="./orders.html"
+											><i class="fa fa-shopping-cart"></i> <span>Đơn hàng</span></a
+										>
+									</li>
+								</ul>
+								<!-- /.side-nav -->
+							</div>
+							<!-- /.sidebar-nav -->
+						</div>
+						<!-- /.sidebar-content -->
+					</div>
+
+					<div class="main-page">
+						<div class="container-fluid">
+							<div class="row page-title-div">
+								<div class="col-md-6">
+									<h2 class="title">Đơn hàng</h2>
+								</div>
+						</div>
+						<!-- /.container-fluid -->
+
+						<section class="section">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="panel">
+											<div class="panel-heading">
+												<div class="panel-title">
+													<div style="display: flex; justify-content: space-between; padding-right: 15px;">
+														<h5>Danh sách đơn hàng</h5>
+														</div>
+												</div>
+											</div>
+											<div class="panel-body p-20 overflow-x-auto">
+												<div id="message-success"></div>
+												<table
+
+													class="display table table-striped table-bordered"
+													cellspacing="0"
+													width="100%"
+												>
+													<thead>
+														<tr>
+															<th>ID</th>
+															<th>Tên khách hàng</th>
+															<th>Số lượng</th>
+															<th>Tổng tiền</th>
+															<th>Ngày tạo</th>
+															<th>Trạng thái</th>
+															<th class="text-center">Hành động</th>
+														</tr>
+													</thead>
+													<tbody class="show-orders">
+
+													</tbody>
+
+												</table>
+
+
+												<!-- /.col-md-12 -->
+											</div>
+										</div>
+									</div>
+									<!-- /.col-md-6 -->
+								</div>
+								<!-- /.row -->
+							</div>
+							<!-- /.container-fluid -->
+						</section>
+						<!-- /.section -->
+					</div>
+					<!-- /.main-page -->
+
+				</div>
+				<!-- /.content-container -->
+			</div>
+			<!-- /.content-wrapper -->
+		</div>
+
+		<h1 class="abc"></h1>
+		<!-- /.main-wrapper -->
+
+		<!-- ========== COMMON JS FILES ========== -->
+		<script src="js/jquery/jquery-2.2.4.min.js"></script>
+		<script src="js/bootstrap/bootstrap.min.js"></script>
+		<script src="js/pace/pace.min.js"></script>
+		<script src="js/lobipanel/lobipanel.min.js"></script>
+		<script src="js/iscroll/iscroll.js"></script>
+
+		<!-- ========== PAGE JS FILES ========== -->
+		<script src="js/prism/prism.js"></script>
+		<script src="js/DataTables/datatables.min.js"></script>
+		<script src="js/counterUp/jquery.counterup.min.js"></script>
+
+		<!-- ========== THEME JS ========== -->
+		<script src="js/main.js"></script>
+
+		<!-- ========== JS ASSIGNMENT ========== -->
+		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="js-assignment/public.js"></script>
+		<script src="js-assignment/orders.js"></script>
+
+		<script>
+			$(function ($) {
+				// Counter for dashboard stats
+				$(".counter").counterUp({
+					delay: 10,
+					time: 1000,
+				});
+				// data table
+				$("#example").DataTable();
+
+				$("#example2").DataTable({
+					scrollY: "300px",
+					scrollCollapse: true,
+					paging: false,
+				});
+
+				$("#example3").DataTable();
+			});
+		</script>
+
+		<!-- ========== ADD custom.js FILE BELOW WITH YOUR CHANGES ========== -->
+	</body>
+</html>
